@@ -1,0 +1,50 @@
+
+main {
+  height: 600px;
+
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+#menu {
+  display: flex;
+  background-color: #555;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+#menu a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: #fff;
+}
+.title{
+  width: 1500px;
+  padding-left: 50px;
+  letter-spacing: 0.5em;
+}
+.menu-right{
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+p{
+  text-align: center;
+  font-size: 3rem;
+  color: #f49542;
+}
+.h100{
+  height: 100px;
+}
