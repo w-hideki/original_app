@@ -1,0 +1,17 @@
+<div class="header">
+  <div class="header-left">
+  <h1 class="header-text">Stocks Manager#1</h1>
+  </div>
+  <input type="search" class="form2-input" placeholder="search" />
+    <% if user_signed_in? %>
+    <ul class="header-inner">
+      <li><%= "#{current_user.company_name} 様" %></li>
+      <li><%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "" %></li> 
+    </ul>
+    <% else %>
+    <ul class="header-inner">
+      <li><%= link_to 'ログイン', new_user_session_path , class: "login" %></li>
+      <li><%= link_to 'アカウント登録', new_user_registration_path, class: "sign-up" %></li>
+    </ul>
+    <% end %>
+</div>
