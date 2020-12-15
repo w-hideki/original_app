@@ -1,3 +1,5 @@
+
+
 $(function() {
 	setTimeout(function(){
 		$('.start p').fadeIn(1600);
@@ -52,4 +54,6 @@ $(function(){
     return false;
   });
 });
+
+
 
